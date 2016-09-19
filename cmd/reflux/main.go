@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	reflux.PrepareFlags()
+	reflux.PrepareFlags("reflux")
 	flag.Parse()
 	
 	if flag.NArg() % 2 != 1 {
