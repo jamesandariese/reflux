@@ -8,11 +8,11 @@ from influx.
 ## Usage
 
 If your plans include a long running application pushing metrics regularly, use
-the NewClient facility.  Otherwise, use SendPointWithJsonTags to automatically
-setup the client, point queue, and tear it down when done.
+the `NewClient` facility.  Otherwise, use `SendPointWithJsonTags` to
+automatically setup the client, point queue, and tear it down when done.
 
-If you're going to use this from a command line tool, you can use `PrepareFlags`
-to prep an influx-url and an influx-json-tags argument which will be used by
-`SendPointUsingFlags` to make things that much easier.
+If you're going to use this from a command line tool, you can use
+`PrepareFlags` to prep an `-influx-url` and an `-influx-json-tags` argument
+which will be used by `SendPointUsingFlags` to make things that much easier.
 
-See cmd/reflux/main.go for a sample.
+See `cmd/reflux/main.go` for a sample.
