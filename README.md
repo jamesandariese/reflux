@@ -1,5 +1,7 @@
 # reflux
 
+[![Build Status](https://travis-ci.org/jamesandariese/reflux.svg?branch=master)](https://travis-ci.org/jamesandariese/reflux)
+
 Shove junk into influx...  more easily than using the pretty obnoxious library
 from influx.
 
